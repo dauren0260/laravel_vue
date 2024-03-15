@@ -20,8 +20,9 @@ class MessageApiController extends Controller
         $Message->memberId = 1;
         $Message->comment = $request->comment;
         $Message->save();
+        $Message_id = $Message->commentNo;
 
-        return response()->json(["message" => "新增成功"], 201);
+        return response()->json(["message" => "新增成功", "id" => $Message_id], 201);
     }
 
     public function edit($commentNo)

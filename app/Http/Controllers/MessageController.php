@@ -18,4 +18,9 @@ class MessageController extends Controller
     {
         return view("message/edit");
     }
+
+    public function tab($commentNo)
+    {
+        return view("tab");
+    }
 }
