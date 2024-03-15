@@ -77,6 +77,7 @@
                 messages:[],
                 searchResult:false
             })
+
             let errorMsg = reactive({msg:''})
 
             onMounted(() => {
@@ -95,7 +96,9 @@
                     comment: floatingTextarea.value,
                 })
                 .then( response => {
-                    location.reload();
+                    axios.get(`http://localhost/api/message/${response.data.id}`).then(res=>{
+                        data.messages.push(res.data)    
+                    })
                     errorMsg.msg = response.data.message;
                 })
                 .catch(function (error) {

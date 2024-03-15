@@ -18,4 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/tab', function () {
+    return view('tab');
+});
+
 Route::resource("/message", MessageController::class);

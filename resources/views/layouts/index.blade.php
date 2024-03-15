@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/4.3.0/vue-router.global.js" integrity="sha512-N4taDSvDyV8rx+7cm9zUIm4bTWWLgjsytQpdlneu4kdrFGG9SRFnn8T0zwuZkzkhfvXRWWeNYX024hxqhVpk4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/4.1.0/vuex.global.js" integrity="sha512-QpO3y+QCyhGGkOJpIvJiadzSba8jCWBlmUOEhcHMoIukpItNeW/kKMeCwFMaSixp156ZTMdywPGuF5o27NjnKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
